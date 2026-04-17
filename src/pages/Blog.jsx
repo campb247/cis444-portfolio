@@ -11,9 +11,9 @@ const posts = [
       alt: 'At the top of Mt. Soledad with my Canyon road bike.',
     },
     body: [
-      "I wanted to start spring break with something that didn't involve a screen, so I threw a leg over the bike and pointed it toward Mt. Soledad. It's one of those San Diego climbs that looks modest on the map and then slowly convinces you otherwise — a steady grind through quiet La Jolla neighborhoods, each switchback opening up a little more of the coastline behind you.",
-      "The last stretch to the summit is where the climb earns its reputation. Your legs are already cooked, the grade kicks up, and the wind coming off the ocean stops feeling refreshing and starts feeling rude. But then you round the final turn, the memorial cross comes into view, and the whole Pacific just unrolls in front of you. On a clear morning like this one you can trace the shoreline from Point Loma all the way up toward Torrey Pines.",
-      "I stopped at the top longer than I needed to. Partly to catch my breath, partly because it's genuinely one of my favorite views in San Diego, and partly because the descent afterward is so fun that I wanted to delay it. A good reminder that the best part of break isn't always doing something new — sometimes it's revisiting a ride you've done a dozen times and noticing it feels different when your inbox is finally empty.",
+      "I wanted to start spring break with something that didn't involve a staring at my computer (I do that enough already), and a friend of mine had recommended a fun challenge on a bicycle: Mt. Soledad. It's a climb that looks not too bad on the map, and then you actually attempt it and realize just how steep it is in person. It make you work hard through some neighborhoods in La Jolla, and with each switchback, you can see a hint a of the coastline behind you.",
+      "Finally, after a grueling 15 minutes of a 15-20% grade, the memorial cross comes into view, and the whole ocean just appears in front of you. On a clear day (I went the day after the rain), I could see all the way north to San Marcos, all of UCSD, downtown San Diego, Coronado, and Tijuana at the same time.",
+      "I stopped at the top longer than I needed to. Partly to catch my breath, and partly because the view really surprised me. I though Double Peak was the best view in San Diego county, but I think Soledad beats it. Finally, the descent afterward was thrilling, and I hit speeds of nearly 50 MPH on a bicycle.",
     ],
   },
   {
@@ -40,9 +40,9 @@ const posts = [
       },
     ],
     body: [
-      "My birthday happened to land right in the middle of spring break, so instead of going out I decided to turn the kitchen into a project and build a cocktail from scratch. I'd been reading about milk punch for a while — the old technique where you curdle milk with acid, strain it, and end up with something silky, stable, and weirdly clear — and I figured my birthday was as good an excuse as any to finally try it.",
-      "The base is a strawberry maceration: fresh berries, sugar, and time. Once they give up their juice I combine them with the spirit mix, citrus, and a little coconut cream for body. Then the fun part — the whole thing goes through the milk clarification step, which always feels like you're ruining the drink right up until you strain it and get this clean, softly pink liquid on the other side. It's probably the closest cooking has ever felt to a magic trick.",
-      "We poured it over one big ice cube, toasted, and sat around way too long at the kitchen counter talking about nothing. The drink itself came out better than I expected — strawberry forward but balanced, with just enough bitterness from the red aperitif to keep it from tasting like candy. Ten out of ten birthday. Would absolutely make again once I restock strawberries.",
+      "My birthday happened to land right in the middle of spring break, so instead of going out I decided put my cocktail mixing skills to good use, and started an ambitious project where I would create a complicated cocktail from scratch. The idea came to me from a Michelin Star restaurant I had been to that served something similar, and I'd been reading about milk punch and how to make it myself. It's a technique where you curdle milk with acid, strain it, and end up with a drink that is silky, stable, and weirdly clear (the fat chunks any cloudy contaminates from the drink). I figured my birthday was as good an excuse as any to finally try it.",
+      "The base is a strawberry oleo saccharum: fresh sliced strawberries, sugar, and 1 hour of time. Once they give up their juice, I combine them with a rum blend, Campari, and citrus to get the coconut milk to curdle. I went with coconut cream for flavor. Then, the most complicated and time consuming part: the whole thing goes through the milk clarification step, which always feels like you're ruining the drink right up until you strain it (many, many times) and get this clear, pink liquid. I think it feels like a magic trick.",
+      "I poured it over one big ice cube at my birthday party. The drink itself came out better than I expected, strawberry forward but balanced, with just enough bitterness from the red aperitif to keep it from tasting like candy. Ten out of ten recipe. Would absolutely make again once I decide I'm willing to spend 48 hours making a cocktail again.",
     ],
   },
   {
@@ -55,9 +55,9 @@ const posts = [
       alt: 'A cortado with a tulip poured on top, sitting on the espresso bar mat.',
     },
     body: [
-      "One of my small break goals was to stop ordering the same latte on autopilot. So I walked into a local spot I'd been meaning to try and ordered a cortado instead. If you haven't had one — it's basically a short espresso drink, roughly equal parts espresso and steamed milk, served in a small glass. The whole thing is maybe four ounces. No foam mountain, no syrup, no hiding.",
-      "What I liked about it was how honest it felt. The milk is just enough to take the edge off the espresso, but there's nowhere for a bad shot to go — if the beans are off or the pull is rushed, you taste it immediately. The barista here clearly cared; the shot was sweet and balanced, and they laid a clean little tulip on top even though the drink is small enough that most shops don't bother.",
-      "I sat at the window for maybe fifteen minutes and didn't touch my phone once, which is its own small victory. I think the cortado is going to become a regular order for me. It's the kind of drink that rewards slowing down, and that was pretty much the theme of the whole week.",
+      "One of my small break goals was to try some new coffee shops. I decided on a local spot I'd been meaning to try and ordered a cortado. If you haven't had one, it's basically a short espresso drink, but unlike a latte, it has equal parts espresso and steamed milk, served in a small glass, with the whole thing being about four ounces. It's not overly foamy, and there's no sugar or sweetener. Just an espresso forward classic.",
+      "What I like about this drink is how honest they are. If the coffee shop isn't serving well roasted espresso, you'll be able to taste it with a cortado, without having to be so hardcore as to order a plain espresso shot. The milk is just enough to take the edge off, but there's nowhere for a bad shot to hide. If the beans are off or the pull is rushed, you taste it immediately. I think the barista at this coffee here clearly cared or knew what they were doing. The shot was sweet and balanced, and they laid a clean little tulip on top even though the drink is small enough that most shops don't bother. Especially a Starbucks",
+      "I sat at the window for maybe fifteen minutes and didn't touch my phone once, which is its own small victory. I brought Nietzsche's \"The Gay Science\" to read, and I think the cortado is going to become a regular order for me. It's the kind of drink that rewards slowing down, and that was pretty much what I did for my spring break.",
     ],
   },
 ];
@@ -102,8 +102,8 @@ function Blog() {
         <p className="hero-eyebrow">Blog</p>
         <h1>Spring Break 2026</h1>
         <p className="lead">
-          A short log of three things from the week — a climb, a cocktail,
-          and a coffee. Mostly low-key, all worth remembering.
+          A short log of three things from the week: a climb, a cocktail,
+          and a coffee.
         </p>
       </section>
 

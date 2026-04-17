@@ -3,21 +3,21 @@ const projects = [
     title: 'Retail Break Scheduler',
     tag: 'Full-stack web app',
     desc:
-      'Automatically schedules employee breaks in compliance with state labor laws while optimizing department coverage. Turns a stressful manual puzzle into a single click for floor managers.',
+      'Automatically schedules employee breaks in compliance with state labor laws while optimizing department coverage. Turns a task that takes management or admin employees hours each week into just one single click.',
     stack: ['React', 'Node.js', 'Express', 'Scheduling'],
   },
   {
     title: 'PokeGrade',
     tag: 'CIS 444 class project',
     desc:
-      'Scans live eBay listings for Pokémon cards and runs image-based centering analysis to surface cards that may be undergraded — flagging hidden value most buyers would miss.',
+      'Scans live eBay listings for Pokémon cards and runs image-based centering analysis to look for cards that may be undergraded. It helps find valuable cards that may otherwise go unnoticed.',
     stack: ['React', 'eBay API', 'Image analysis', 'Node.js'],
   },
   {
     title: 'KillerApp',
     tag: 'Game logistics platform',
     desc:
-      'Automates the classic Senior Assassins game: randomized team assignment, elimination tracking, and a video upload / moderator verification pipeline so organizers do not get buried in DMs.',
+      'Automates the classic Assassins game: randomized team assignment, elimination tracking, and a video upload / moderator verification so organizers don\'t get overwhelmed with DMs.',
     stack: ['React', 'Auth', 'Video uploads', 'Admin dashboard'],
   },
 ];
@@ -44,11 +44,11 @@ function Home() {
         <div className="hero-inner">
           <p className="hero-eyebrow">Portfolio · Spring 2026</p>
           <h1>
-            Hi, I'm <span className="accent">Kaden Campbell</span>.
+            <span className="accent">Kaden Campbell</span>'s Portfolio (and Blog).
           </h1>
           <p className="hero-sub">
             Computer science student at California State University San Marcos,
-            learning to build things on the web.
+            learning web development.
           </p>
           <div className="hero-actions">
             <a href="#projects" className="btn btn-primary">See projects</a>
@@ -60,25 +60,26 @@ function Home() {
       <section id="about" className="section">
         <h2>About</h2>
         <p className="lead">
-          I'm a student at CSUSM taking CIS 444 — Intro to Web Development. Over
-          the past ten weeks I've gone from plain HTML and CSS to building
-          full-stack apps: writing JavaScript on both sides of the wire,
-          standing up Express APIs, and composing interactive UIs out of React
-          components. This portfolio itself is a React app deployed to GitHub
-          Pages.
+          I'm currently enrolled at CSUSM taking CIS 444 to learn Web Development. Over
+          the past few weeks I've gone from basic HTML and CSS to working on
+          full-stack apps: writing JavaScript on both the frontend and backend,
+          settings up Express APIs, and creating interactive UIs out of React
+          components. This portfolio is a React app that I deployed to GitHub Pages.
         </p>
         <p>
-          Outside of class I work on ideas that come from everyday life —
-          retail jobs that need better tooling, card collecting hobbies,
-          campus games my friends play. I like projects where the software
-          quietly removes a real annoyance.
+          Outside of class, I work on ideas that come from my everyday life.
+          My work in retail helped me find a need for better automation,
+          and my trading card collecting hobby benefits from the tool I'm working on.
+          During high school, I ran the Senior Assassins game and identified a need for a
+          better solution than Excel spreadsheets and Instagram DMs. I like creating
+          projects where the software fixes a problem or annoyance I have.
         </p>
       </section>
 
       <section id="projects" className="section">
         <h2>Projects</h2>
         <p className="section-sub">
-          Three apps I'm either building or shipping right now.
+          Three apps I've made (or am in the process of making):
         </p>
         <div className="projects-grid">
           {projects.map((p) => (
