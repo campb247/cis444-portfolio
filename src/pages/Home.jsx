@@ -63,7 +63,7 @@ function Home() {
           I'm currently enrolled at CSUSM taking CIS 444 to learn Web Development. Over
           the past few weeks I've gone from basic HTML and CSS to working on
           full-stack apps: writing JavaScript on both the frontend and backend,
-          settings up Express APIs, and creating interactive UIs out of React
+          setting up Express APIs, and creating interactive UIs out of React
           components. This portfolio is a React app that I deployed to GitHub Pages.
         </p>
         <p>
