@@ -1,5 +1,8 @@
+// base url from vite config, prepended to image paths
+// needed so images resolve under github pages subpath
 const BASE = import.meta.env.BASE_URL;
 
+// spring break blog posts, one entry per day
 const posts = [
   {
     slug: 'mt-soledad',
@@ -62,6 +65,7 @@ const posts = [
   },
 ];
 
+// renders one post, cover image, meta, paragraphs, optional gallery
 function BlogPost({ post }) {
   return (
     <article className="blog-post">
@@ -82,6 +86,7 @@ function BlogPost({ post }) {
         <p key={i}>{paragraph}</p>
       ))}
 
+      {/* gallery only shows if post has one, currently just cocktail */}
       {post.gallery && (
         <div className="blog-gallery">
           {post.gallery.map((img) => (
@@ -95,6 +100,7 @@ function BlogPost({ post }) {
   );
 }
 
+// blog page, intro section plus all posts
 function Blog() {
   return (
     <main>

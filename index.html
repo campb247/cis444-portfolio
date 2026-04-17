@@ -10,7 +10,8 @@
       content="CSUSM computer science student. React portfolio + spring break blog for CIS 444."
     />
     <script>
-      // spa-github-pages: decode redirected path back into the URL before React mounts
+      // spa-github-pages, decodes redirected path before react mounts
+      // needed so direct links like /blog work on github pages
       (function (l) {
         if (l.search[1] === '/') {
           var decoded = l.search

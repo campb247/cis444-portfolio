@@ -1,4 +1,8 @@
+/* global styles, theme tokens plus page sections */
+/* section order, navbar, hero, sections, blog, footer, mobile */
+
 :root {
+  /* theme tokens, edit here to change colors site wide */
   --bg: #ffffff;
   --bg-alt: #f8fafc;
   --text: #0f172a;
@@ -64,7 +68,7 @@ img {
   flex-direction: column;
 }
 
-/* Navbar */
+/* navbar, sticky top bar with blur background */
 .navbar {
   position: sticky;
   top: 0;

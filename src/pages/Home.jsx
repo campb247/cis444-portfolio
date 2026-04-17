@@ -1,3 +1,4 @@
+// projects list, edit entries here to change cards
 const projects = [
   {
     title: 'Retail Break Scheduler',
@@ -22,6 +23,7 @@ const projects = [
   },
 ];
 
+// reusable card for one project, reads props from projects list
 function ProjectCard({ title, tag, desc, stack }) {
   return (
     <article className="project-card">
@@ -37,6 +39,7 @@ function ProjectCard({ title, tag, desc, stack }) {
   );
 }
 
+// home page, hero plus about, projects, contact sections
 function Home() {
   return (
     <main>
@@ -44,7 +47,7 @@ function Home() {
         <div className="hero-inner">
           <p className="hero-eyebrow">Portfolio · Spring 2026</p>
           <h1>
-            <span className="accent">Kaden Campbell</span>'s Portfolio (and Blog).
+            <span className="accent">Kaden Campbell</span>'s Portfolio (and Blog)
           </h1>
           <p className="hero-sub">
             Computer science student at California State University San Marcos,

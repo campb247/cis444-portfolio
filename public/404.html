@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <title>Redirecting…</title>
     <script>
-      // spa-github-pages: redirect 404s back to index.html with path preserved
+      // spa-github-pages, redirects 404s to index.html with path preserved
       // https://github.com/rafgraph/spa-github-pages
       (function () {
-        var pathSegmentsToKeep = 1; // keep "/cis444-portfolio"
+        // keep one path segment, /cis444-portfolio
+        var pathSegmentsToKeep = 1;
         var l = window.location;
         l.replace(
           l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
