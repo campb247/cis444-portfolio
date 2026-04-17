@@ -132,7 +132,7 @@ img {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-/* Hero */
+/* hero, landing section with gradient background */
 .hero {
   padding: 6rem 2rem 4rem;
   background: linear-gradient(180deg, var(--accent-soft) 0%, #ffffff 100%);
@@ -204,7 +204,7 @@ img {
   color: var(--accent);
 }
 
-/* Sections */
+/* shared section layout, about, projects, contact */
 .section {
   max-width: var(--max-width);
   margin: 0 auto;
@@ -226,7 +226,7 @@ img {
   color: var(--text-muted);
 }
 
-/* Projects */
+/* projects grid, one card per project */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -291,7 +291,7 @@ img {
   border-radius: 6px;
 }
 
-/* Contact */
+/* contact list, email, github, school */
 .contact-list {
   list-style: none;
   padding: 0;
@@ -319,7 +319,7 @@ img {
   min-width: 4.5rem;
 }
 
-/* Blog */
+/* blog page, intro plus post list */
 .blog-intro {
   padding-bottom: 2rem;
 }
@@ -403,7 +403,7 @@ img {
   object-fit: cover;
 }
 
-/* Footer */
+/* footer, site wide bottom bar */
 .footer {
   margin-top: auto;
   border-top: 1px solid var(--border);
@@ -417,7 +417,7 @@ img {
   margin: 0;
 }
 
-/* Mobile */
+/* mobile overrides, kicks in at 720px and below */
 @media (max-width: 720px) {
   .navbar {
     padding: 0.85rem 1.25rem;
